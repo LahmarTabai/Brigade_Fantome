@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6,p,ul,img{
 *{
     /* ff */
     scrollbar-width: thin;
-    scrollbar-color: #000 #fff;
+    scrollbar-color: #fff  #000;
 
 }
 /* webkit */
