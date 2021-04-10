@@ -27,6 +27,12 @@ h1,h2,h3,h4,h5,h6,p,ul,img{
 
 }
 
+a{
+    text-decoration: none; /* cela enlève le soulignement et la couleur bleu */
+    color: #222;
+
+}
+
 /*scrollbar c'est ici*/
 *{
     /* ff */
@@ -50,11 +56,15 @@ details,summary{
     --color-text-header:#fff;
     --color-link:#333;
 }
+
 header{
     line-height: 6rem;
     background-color: var(--color-defalt);
     margin-bottom: 5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
+
 header h1{
     color: rgb(253, 5, 5);
     text-align: center;
